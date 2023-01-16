@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #FDFFF7!important;
+    font-size: 18px;
+}
+.nav-link {
+    margin-right: 1000px;
+    color: #038F8F!important;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #F86624!important;
+}
+
+.home-body {
+    background-color: #FDFFF7!important;
+    color: #22333B!important;
+}
+
+.app-title {
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.app-desc {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Lexend Deca';
+}
+
+.feature-list {
+    color: #22333B!important;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#feature-img {
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 33rem;
+    margin-left: 120px;
+    color: #22333B;
+    background-color: #F2F4F3;
+    border: none;
+}
+
+.login-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
