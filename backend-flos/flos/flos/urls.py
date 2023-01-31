@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from .views import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('analyze_apk/', views.analyze_apk, name='analyze_apk'),
+    path('extract_text_from_image/', views.extract_text_from_image, name='extract_text_from_image'),
+    path('transcribe_audio/', views.transcribe_audio, name='transcribe_audio'),
 ]

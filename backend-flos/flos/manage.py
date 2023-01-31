@@ -17,14 +17,5 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-import subprocess
-
-apk_file = '/path/to/apkfile.apk'
-output_directory = '/path/to/output/directory'
-
-# run the apktool command to extract the source code
-subprocess.run(['apktool', 'd', apk_file, '-o', output_directory])
-
-
 if __name__ == '__main__':
     main()
