@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Login from './Login'
 
 
 const Home = () => {
@@ -38,9 +39,7 @@ const Home = () => {
             </div>
           </div>
           <div className='col-6'>
-            <div class="card shadow-sm">
-              <b className='login-title'>Sign In</b>
-            </div>
+            <Login />
           </div>
         </div>
       </div>
