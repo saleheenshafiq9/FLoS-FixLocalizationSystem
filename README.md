@@ -47,4 +47,17 @@ fixed GUI remains consistent with the original GUI.
 #### 3. Media Content Fix: System adds translated subtitles to video and audio in the selected language.
 It also translates extracted texts from images as captions to fix that issue.
 After patching the fixes in the source code, the system presents the results as a Localisation Fix Report.
-The report includes - report version and type, issue status (total number of fixed localization issues &
+The report includes - report version and type, issue status (total number of fixed localization issues & unfixed localization issues), list of localization issues, their content type, line of code & whether they
+were fixed or not, link to the original & fixed content so that the user may view them. Tester who has run
+the test can download the fixed apk file or add comments once the fix generation is completed.
+A notification is sent to the project owner after the localization fix report is generated. Note that the
+report & fixed apk file are stored in the system as a log. After a year, the project owner will be asked
+whether he wants to archive the log data or not.
+## 2.2 Assumption
+1. An APK file for the mobile application will be available.
+2. System will generate the translation but ultimately, uploading the correct translation is the duty
+of the tester.
+3. API for all phases of coding will be available and the API query limit will not be exceeded.
+## 2.3 Scope
+1. We only cover text & media content based localization that respects the value of universalism.
+2. When generating a fix, we only consider height, width & spacing.
